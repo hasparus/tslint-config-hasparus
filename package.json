@@ -2,7 +2,7 @@
   "name": "@hasparus/tslint-config",
   "version": "0.0.1",
   "description": "My personal tslint config",
-  "main": "config.json",
+  "main": "tslint.json",
   "repository": "git@github.com:hasparus/tslint-config-hasparus.git",
   "author": "hasparus <hasparus@gmail.com>",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "tslint-sonarts": "^1.9.0"
   },
   "scripts": {
-    "test": "tslint -c ./config.json -p ./test/tsconfig.json"
+    "test": "tslint -c ./tslint.json -p ./test/tsconfig.json"
   },
   "devDependencies": {
     "@types/react": "^16.8.8",

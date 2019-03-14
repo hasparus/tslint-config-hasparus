@@ -8,6 +8,7 @@
     "tslint-config-prettier"
   ],
   "rules": {
+    "type-literal-delimiter": true,
     "mocha-no-side-effect-code": false, // Probably not using mocha
     "chai-vague-errors": false, // nor chai
     "no-backbone-get-set-outside-model": false, // not using Backbone
