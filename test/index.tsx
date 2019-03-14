@@ -4,3 +4,7 @@ const App = () => (
 )
 
 console.log("okay")
+
+type X = {
+  a: 2,
+}
