@@ -8,10 +8,12 @@
     "tslint-config-prettier"
   ],
   "rules": {
-    "mocha-no-side-effect-code": false, // Probably not using mocha
+    "max-func-body-length": false, // false positives hooks
+    "function-name": false, // for declaration merging (type constructors)
+    "mocha-no-side-effect-code": false, // probably not using mocha
     "chai-vague-errors": false, // nor chai
     "no-backbone-get-set-outside-model": false, // not using Backbone
-    "no-single-line-block-comment": false, // We have @jsx jsx pragma comments
+    "no-single-line-block-comment": false, // we have @jsx jsx pragma comments
     "no-null-keyword": false,
     "use-simple-attributes": false,
     // According to Microsoft/TypeScript#10717 the only way to get variance inference to work
