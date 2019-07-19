@@ -1,6 +1,6 @@
 {
   "name": "@hasparus/tslint-config",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "My personal tslint config",
   "main": "tslint.json",
   "repository": "git@github.com:hasparus/tslint-config-hasparus.git",
