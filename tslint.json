@@ -8,7 +8,11 @@
     "tslint-config-prettier"
   ],
   "rules": {
-    "max-func-body-length": false, // false positives hooks
+    "no-submodule-imports": false, // too many fp-ts style libs
+    "prefer-template": false,
+    "max-func-body-length": false, // duplicate of no-big-function
+    "no-nested-template-literals": false,
+    "no-namespace": false,
     "function-name": false, // for declaration merging (type constructors)
     "mocha-no-side-effect-code": false, // probably not using mocha
     "chai-vague-errors": false, // nor chai
@@ -31,7 +35,6 @@
     "no-angle-bracket-type-assertion": true,
     "react-this-binding-issue": false,
     "export-name": false,
-    "no-namespace": [true, "allow-declarations"],
     "max-union-size": false,
     // "We recommend that you run this rule before each release as a quality checkpoint."
     "no-suspicious-comment": false,
@@ -39,7 +42,6 @@
       "options": ["debug", "info", "log", "time", "timeEnd", "trace"],
       "severity": "warn"
     },
-    "prefer-template": true,
     "align": [true, "parameters", "statements", "members", "elements"],
     "variable-name": [
       true,
@@ -66,7 +68,6 @@
     "no-string-literal": false,
     "object-literal-sort-keys": [true, "shorthand-first"],
     "no-unused-expression": [true, "allow-tagged-template"],
-    "no-submodule-imports": [true, "fp-ts"],
     "no-object-literal-type-assertion": false,
     "max-classes-per-file": false,
     "import-name": false,
